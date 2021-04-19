@@ -60,7 +60,7 @@ void Pacman::move()
 	// Se verifica que no se sobrepasen los bordes verticales de los margenes establecidos para la pantalla
 	if ((posicionY < 0) || (posicionY + alto > altoPantalla))
 	{
-		// mover atra
+		// mover atras
 		posicionY -= velocidadY;
 	}
 }
